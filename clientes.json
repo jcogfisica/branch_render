@@ -1,0 +1,1 @@
+[{"model": "core.cliente", "pk": 1, "fields": {"nome": "Felicity", "sobrenome": "Jones", "email": "felicity_jone@gmail.com"}}, {"model": "core.cliente", "pk": 2, "fields": {"nome": "JO├O CARLOS", "sobrenome": "OLIVEIRA GUERRA", "email": "jcogfisica@yahoo.com.br"}}]
