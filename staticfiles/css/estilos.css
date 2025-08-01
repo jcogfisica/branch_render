@@ -1,8 +1,14 @@
 body{
-    background-color: teal;
-    color: blueviolet;
+    background-color: tomato;
+    color: darkmagenta;
 }
 a{
     text-decoration: None;
-    color: orangered;
+    color: indigo;
+}
+.tabela-centralizada {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
 }

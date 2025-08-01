@@ -6,3 +6,9 @@ a{
     text-decoration: None;
     color: indigo;
 }
+.tabela-centralizada {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
