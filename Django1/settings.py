@@ -58,7 +58,7 @@ DEBUG = not RENDER
 # com um cabeçalho Host correspondente a uma das entradas dessa lista, mitigando assim essa vulnerabilidade de segurança.
 # Se uma solicitação chegar com um cabeçalho Host ausente em ALLOWED_HOSTS, o Django lançará uma exceção SuspiciousOperation,
 # normalmente resultando em um erro 400 Bad Request.
-ALLOWED_HOSTS = ['https://mysite-nurz.onrender.com/']
+ALLOWED_HOSTS = ['mysite-nurz.onrender.com/']
 # ALLOWED_HOSTS = ['https://outro.onrender.com/'] # Teste para ver o erro!
 
 # Application definition
