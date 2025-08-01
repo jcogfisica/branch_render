@@ -59,7 +59,7 @@ DEBUG = not RENDER
 # Se uma solicitação chegar com um cabeçalho Host ausente em ALLOWED_HOSTS, o Django lançará uma exceção SuspiciousOperation,
 # normalmente resultando em um erro 400 Bad Request.
 ALLOWED_HOSTS = ['mysite-nurz.onrender.com/']
-# ALLOWED_HOSTS = ['https://outro.onrender.com/'] # Teste para ver o erro!
+#  ALLOWED_HOSTS = ['https://outro.onrender.com/'] # Teste para ver o erro!
 
 # Application definition
 # INSTALLED_APPS: Lista os aplicativos instalados no seu projeto.
