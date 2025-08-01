@@ -64,7 +64,7 @@ if not DEBUG:
     external = os.environ.get('RENDER_EXTERNAL_HOSTNAME')  # Render define isso automaticamente
     if external:
         ALLOWED_HOSTS.append(external)  # Ex: 'mysite-nurz.onrender.com'
-    ALLOWED_HOSTS.append('.onrender.com')  # Garante que qualquer subdomínio de onrender.com será aceito
+    ALLOWED_HOSTS.append('mysite-nurz.onrender.com')  # Garante que qualquer subdomínio de onrender.com será aceito
 #  ALLOWED_HOSTS = ['https://outro.onrender.com/'] # Teste para ver o erro!
 
 # Application definition
