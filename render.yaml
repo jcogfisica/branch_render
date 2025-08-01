@@ -11,7 +11,7 @@ services:
     runtime: python
     buildCommand: './build.sh'  # Certifique-se de que este arquivo existe no projeto e é executável
     # startCommand: 'gunicorn Django1.wsgi:application --preload'  # migrate removido para evitar problemas em reinícios; depois de carregar os dados do sqlite3 vai ser o startcommand
-    startCommand: "python manage.py migrate && python manage.py loaddata produtos.json && gunicorn Django1.wsgi:application"
+    startCommand: "python manage.py migrate && python manage.py loaddata produtos.json && python manage.py seed_admin && gunicorn Django1.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
